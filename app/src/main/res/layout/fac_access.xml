@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center_vertical">
+    <Button
+        android:id="@+id/maintenanceButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Maintenance"
+        android:background="@drawable/button"
+        android:layout_marginBottom="120dp"
+        android:onClick="onMaintenanceButtonClick" />
+
+    <!-- Button for Book Class/Lab -->
+    <Button
+        android:id="@+id/bookClassButton"
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="Book Class/Lab"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/black"
+        android:layout_marginBottom="120dp"
+        android:onClick="onBookClassButtonClick" />
+
+    <!-- Button for Upload Files -->
+    <Button
+        android:id="@+id/uploadFilesButton"
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="Upload Files"
+        android:background="@drawable/button"
+        android:layout_marginBottom="120dp"
+        android:onClick="onUploadFilesButtonClick" />
+
+    <Button
+        android:id="@+id/meeting"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Meeting"
+        android:background="@drawable/button"
+        android:onClick="onMaintenanceButtonClick" />
+</LinearLayout>

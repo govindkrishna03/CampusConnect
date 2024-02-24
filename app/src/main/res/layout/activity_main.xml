@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:gravity="center_vertical">
+
+    <!-- Spacer to push views to the top -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:layout_marginTop="200dp"
+        android:layout_weight="1" />
+
+    <!-- Centered layout for logo and button -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Logo -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"
+           />
+
+        <!-- Button -->
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:layout_margin="30dp"
+            android:text="Faculty Login"
+            android:onClick="floginpage"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:text="Student Login"
+            android:onClick="sloginpage"/>
+    </LinearLayout>
+
+    <!-- Image at the bottom -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:src="@drawable/amrita" />
+
+</LinearLayout>
